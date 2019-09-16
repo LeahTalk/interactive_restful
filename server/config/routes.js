@@ -5,11 +5,11 @@ module.exports = function(app) {
         controller.index(req, res);
     });
 
-    app.get('/new/:title', (req, res) => {
+    app.post('/tasks', (req, res) => {
         controller.add_task(req, res);
     });
 
-    app.get('/remove/:id', (req, res) => {
+    app.delete('/tasks', (req, res) => {
         controller.remove_task(req, res);
     });
 
