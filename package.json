@@ -14,7 +14,7 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "mongoose": "^5.7.0"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "@types/jquery": "^3.3.31"
